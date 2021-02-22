@@ -58,7 +58,7 @@ public class Principal {
         }
 
         System.out.println();
-        System.out.println("ORDER SUMMARY:");
+        System.out.println("Dados do Pedido:");
         System.out.println(ordem);
 
 

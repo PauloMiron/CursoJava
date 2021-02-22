@@ -75,7 +75,7 @@ public class Ordem {
           StringBuilder sb = new StringBuilder();
           sb.append("Data Pedido: ");
           sb.append(sdf.format(date) + "\n");
-          sb.append("Ordem status: ");
+          sb.append("Pedido status: ");
           sb.append(status + "\n");
           sb.append("Cliente: ");
           sb.append(cliente + "\n");
@@ -83,7 +83,7 @@ public class Ordem {
           for (OrderItem item : ordemItem) {
                sb.append(item + "\n");
           }
-          sb.append("Total price: $");
+          sb.append("Preço total $");
           sb.append(String.format("%.2f", total()));
           return sb.toString();
      }
